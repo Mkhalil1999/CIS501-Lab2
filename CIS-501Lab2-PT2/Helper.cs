@@ -20,9 +20,9 @@ namespace CIS_501Lab2_PT2
             
         }
 
-        public Helper(Remove done)
+        public Helper(Manager myManager)
         {
-            done(this.myManager);
+            this.myManager = myManager;
         }
     }
 }
