@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CIS501_Lab2
+namespace CIS_501Lab2_PT2
 {
     class Program
     {
