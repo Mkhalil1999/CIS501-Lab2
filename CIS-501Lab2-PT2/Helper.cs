@@ -16,6 +16,7 @@ namespace CIS_501Lab2_PT2
         public void finished()
         {
             Console.WriteLine("Helper work is done...");
+            Remove.remove(this, myManager);
             
         }
 

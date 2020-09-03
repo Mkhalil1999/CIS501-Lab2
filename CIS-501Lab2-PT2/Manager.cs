@@ -8,15 +8,14 @@ namespace CIS_501Lab2_PT2
     {
         private static List<Helper> active = new List<Helper>();
         public delegate void Del(Helper h);
-        public Del rem;
+        public Del rem = new Del(remove);
 
-        public void remove(Helper h)
+        public static void remove(Helper h)
         {
             Console.WriteLine("Purging Helper");
             active.Remove(h);
             Console.WriteLine("...");
             Console.WriteLine("Helper Released");
-            rem(h);
         }
 
 

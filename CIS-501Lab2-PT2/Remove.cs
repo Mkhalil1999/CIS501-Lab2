@@ -9,9 +9,8 @@ namespace CIS_501Lab2_PT2
     public interface Remove
     {
 
-        public static void remove(Helper h)
+        public static void remove(Helper h, Manager m)
         {
-            Manager m = new Manager();
             m.rem(h);
         }
 
